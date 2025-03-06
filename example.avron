@@ -1,0 +1,30 @@
+title: "A Very Readable Object Notation"
+version: 1.0
+author: "Kohan Mathers"
+ 
+is_human_friendly: true
+is_machine_friendly: true
+ 
+description: """
+  This is an example of an AVRON file.
+  It supports multi-line strings, lists, and nested objects.
+"""
+
+features:
+  - "Simple syntax"
+  - "No unnecessary characters"
+  - 100
+  - true
+  - null
+
+tags: ["format", "human-readable", "parser"]
+
+settings:
+  display:
+    resolution:
+      width: 1920
+      height: 1080
+    fullscreen: true
+    theme: "dark"
+
+metadata: { created_by: "QTI", last_updated: "2025-06-03" }
